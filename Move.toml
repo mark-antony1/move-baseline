@@ -1,10 +1,11 @@
 [package]
-name = "package_name"
-version = "0.0.0"
+name = "nutrios_framework"
+version = "0.0.1"
 
 [addresses]
 AptosFramework = "0x1"
-OwningAccount = "0xe110"
+Nutrios = "0xe110"
+CoreResources = "0xA550C18"
 
 [dependencies]
-AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir="aptos-move/framework/aptos-framework", rev = "0b834fc218648d759e93a7d61a432d0dce6c9946" }
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir="aptos-move/framework/aptos-framework", rev = "8818d33b453c5aa90e0a1d41a7884be09701a3f1" }

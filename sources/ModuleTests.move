@@ -1,7 +1,7 @@
 // #[test_only]
-// module OwningAccount::ModuleTests {
+// module Nutrios::ModuleTests {
 //     use Std::Signer;
-//     use OwningAccount::Module;
+//     use Nutrios::Module;
 
 //     fun get_account(): signer {
 //         Vector::pop_back(&mut UnitTest::create_signers_for_testing(1))
